@@ -1,5 +1,5 @@
-# ZX-Interface-1-Renewed-PLCC
-Sinclair ZX Interface 1 recreated using a standard edge connector along with SMD components where possible along with a PLCC ROM.
+# ZX-Interface-1-Renewed-DIP
+Sinclair ZX Interface 1 recreated using a standard edge connector along with SMD components where possible along with a DIP ROM.
 
 The schematic available from the Service Guide was redrawn in Kicad and used to create the PCB and to verify that the routing was correct and that no components were missed.
 
