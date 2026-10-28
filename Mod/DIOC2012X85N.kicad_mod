@@ -1,0 +1,297 @@
+(footprint "DIOC2012X85N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "0805 (2012 Metric)")
+	(tags "Zener Diode")
+	(property "Reference" "REF**"
+		(at 0.4731 -2.41925 0)
+		(layer "F.SilkS")
+		(uuid "75e80c4d-5c4d-49a6-b824-89fbc299eb4f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BZY55C4V3"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f9930d49-7c53-4a7a-880b-55ec2636ba79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afea6ff8-42f4-4979-910e-73ac935d7b19")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "-55C ~ 150C Zener Diode 4.3 V 500 mW +/-5% Surface Mount 0805"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e78774ee-9356-4cc0-9e73-9e29b991c6da")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Arrow Part Number" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c029d28e-9556-4653-8fad-c1da55ed9a40")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Arrow Price/Stock" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ef363f8-6950-4700-aa32-027ec6502b63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.85"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6cb3be0-bec8-4dc6-9108-6cbc670e1db8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Taiwan Semiconductor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "028c99e8-1c84-4903-ad94-253c1e55e519")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "BZY55C4V3 RBG"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "768f8941-711d-4237-957c-cc5fba7bce96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "821-BZY55C4V3RBG"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99f2c093-1a54-407f-9b9f-157609cd4d2d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Taiwan-Semiconductor/BZY55C4V3-RBG?qs=mAH9sUMRCtvRTLp3EddUfw%3D%3D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8c225e5-c736-4bfc-8d3e-95d6a01af325")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "Serial IO")
+	(sheetfile "Serial_IO.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.8 -1.075)
+		(end -1.8 1.075)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd1a81c0-af13-4dc9-82fb-9247f78bffdc")
+	)
+	(fp_line
+		(start -1.8 1.075)
+		(end 0.9 1.075)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c91134e-4c49-4be5-8d6e-fdef1c98fb3c")
+	)
+	(fp_line
+		(start 0.9 -1.075)
+		(end -1.8 -1.075)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6540e028-5ca1-4c55-8cbf-3e3e79c7ebac")
+	)
+	(fp_line
+		(start -1.9 -1.175)
+		(end 1.9 -1.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4bb455f2-9135-4b59-a560-24f20bc184fa")
+	)
+	(fp_line
+		(start -1.9 1.175)
+		(end -1.9 -1.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1fcf6fb0-d899-48e4-bd95-179659dbe635")
+	)
+	(fp_line
+		(start 1.9 -1.175)
+		(end 1.9 1.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88478c85-ad74-4cff-a539-15c6620fa176")
+	)
+	(fp_line
+		(start 1.9 1.175)
+		(end -1.9 1.175)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ca6355e6-0583-4a4b-912c-d099ff56aa16")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "522b49b4-9a33-42bb-bec8-a3d3951d838b")
+	)
+	(fp_line
+		(start -1 -0.075)
+		(end -0.45 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6bc436ed-9ca2-4cd9-b046-272ced003efd")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "189b373e-2f2a-433c-bb07-9d55815987e1")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2cd4be19-1264-4e42-8d93-f865f9ad07b8")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad373420-147d-4930-aafa-a9faa11a41c5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "647aa1de-34cb-4a64-89b5-2120264028b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.9 0)
+		(size 1.1 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fc661752-8dec-4efb-967a-8dd785afe3bc")
+	)
+	(pad "2" smd rect
+		(at 0.9 0)
+		(size 1.1 1.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "9c9a7ed4-3bb5-46a8-bc92-f00e66852451")
+	)
+	(embedded_fonts no)
+	(model "C:\\Kicad\\Interface1_Parts.3dshapes\\BZY55C4V3_RBG.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,336 @@
+(footprint "830202129201"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "830202129201-1")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "REF**"
+		(at -0.035 5.37405 0)
+		(layer "F.SilkS")
+		(uuid "372eeacb-67af-4d06-9baa-ed98c1885769")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "8Mhz"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "76465e39-6dca-4913-a388-18a10d0f4978")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fe2accdd-6a2e-4112-9c66-b99536383104")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Standard 7 x 5mm crystal oscillator in a ceramic package with a seam sealed metal lid, hermetically sealed"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc846c1b-5ff7-45b6-8c3f-14646a422f3b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.4"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81446b0b-401a-4f91-9234-7f4cce13fc7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Wurth Elektronik"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8652e657-2d46-46a8-8dad-45bf44b1efd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "830202129201"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "395ff439-ddad-4db9-9ec0-c3da7233d834")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "449-LFSPXO021292BULK"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "10ec1653-e34c-44d5-904e-841f28b690df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/IQD/LFSPXO021292Bulk?qs=e4%2FAndAAwgL7FYECM7zRnA%3D%3D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "096571f2-a1ea-441a-8a14-7f97a7e903f8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "ZX Interface 1 New Layout SMD DIP.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.6 -1)
+		(end -3.6 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb7b915b-dcdd-40f1-85e0-df1834839402")
+	)
+	(fp_line
+		(start -2.6 3.3)
+		(end -2.6 3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13df17e0-e395-46f0-9380-84cf3586fd2d")
+	)
+	(fp_line
+		(start -2.6 3.5)
+		(end -2.6 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "042dba92-73c8-4eb0-8a1a-7824dd8d9bbf")
+	)
+	(fp_line
+		(start -1.4 -2.6)
+		(end 1.4 -2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ecd8892-b84a-48e0-96ec-80eca7b84a4e")
+	)
+	(fp_line
+		(start -1.4 2.6)
+		(end 1.4 2.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4f8ac325-8466-4b47-b0f8-fdc08c2d6386")
+	)
+	(fp_line
+		(start 3.6 -1)
+		(end 3.6 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "467524e3-d284-4b99-b872-efd893543eec")
+	)
+	(fp_line
+		(start 3.6 1)
+		(end 3.6 1)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4b9260c3-b4d4-4fcf-aaea-58cf6265f1e9")
+	)
+	(fp_arc
+		(start -2.6 3.3)
+		(mid -2.5 3.4)
+		(end -2.6 3.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ea9e63c4-8ae8-46bc-a2b0-65365884c82e")
+	)
+	(fp_arc
+		(start -2.6 3.5)
+		(mid -2.7 3.4)
+		(end -2.6 3.3)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ffe8cf7d-8a9e-4ec1-8b63-429710544270")
+	)
+	(fp_line
+		(start -4.6 -3.9)
+		(end 4.6 -3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5e36cbbb-f119-4f61-adcc-312a46243400")
+	)
+	(fp_line
+		(start -4.6 3.9)
+		(end -4.6 -3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7e39224-887c-4674-a3eb-352f93671a6d")
+	)
+	(fp_line
+		(start 4.6 -3.9)
+		(end 4.6 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d9c29e96-6ad6-4bba-a4c5-3e6b1e78b128")
+	)
+	(fp_line
+		(start 4.6 3.9)
+		(end -4.6 3.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d5518b1-762b-4dde-807c-1ce57fb8764f")
+	)
+	(fp_line
+		(start -3.6 -2.6)
+		(end 3.6 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0c62a63-864d-4943-ae89-3de8fc94febb")
+	)
+	(fp_line
+		(start -3.6 2.6)
+		(end -3.6 -2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5216959a-6d26-4206-8a8b-001c5c5e9dd2")
+	)
+	(fp_line
+		(start 3.6 -2.6)
+		(end 3.6 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d5e2e3fd-d543-4a5c-ac23-7a88641b9ec8")
+	)
+	(fp_line
+		(start 3.6 2.6)
+		(end -3.6 2.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c924787-7dec-4d00-9594-1b84996a378a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8787e36b-0343-4f34-8131-112bcf253b1a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.54 2.5 90)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "23d5418b-145a-44cf-9d27-404834507345")
+	)
+	(pad "2" smd rect
+		(at 2.54 2.5 90)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ba24d467-5c0d-4ce4-8dc8-d4aebc3fbbcd")
+	)
+	(pad "3" smd rect
+		(at 2.54 -2.5 90)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "994dbbb9-736c-4985-99d0-fb6498502886")
+	)
+	(pad "4" smd rect
+		(at -2.54 -2.5 90)
+		(size 2 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ffba3b3a-5600-468a-bab0-afcc442b6e11")
+	)
+	(embedded_fonts no)
+	(model "C:\\Kicad\\Interface1_Parts.3dshapes\\830202129201.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

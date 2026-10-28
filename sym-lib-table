@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "ZX Interface 1 DIP") (type "KiCad") (uri "${KIPRJMOD}/SYM/ZX Interface 1 DIP.kicad_sym") (options "") (descr ""))
+)

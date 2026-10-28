@@ -1,0 +1,298 @@
+(footprint "SOT95P240X120-3N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "SOT-23(SST3)-+-")
+	(tags "Transistor BJT NPN")
+	(property "Reference" "REF**"
+		(at 3.05365 -0.007025 270)
+		(layer "F.SilkS")
+		(uuid "397286d7-c83c-4a13-a6f4-4db684dfe908")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SST3904"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "17de6685-1345-4291-8f13-89f7f8b27ee4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3bbb04f8-4914-46c1-8f6d-498cdeaeb937")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "ROHM - SST3904HZGT116 - TRANSISTOR, AEC-Q101, NPN, 40V, SOT-23"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1ea81eed-d427-4936-9e6d-eb7d72e6800d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.2"
+		(at 281.2256 -151.0774 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7a1cd70-bdc1-4696-aedd-10775f2fe98f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "ROHM Semiconductor"
+		(at 281.2256 -151.0774 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a08bbe4-7ec8-4c9e-9b99-0b083cf6dd27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "SST3904HZGT116"
+		(at 281.2256 -151.0774 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "440d5a97-f7b2-42e6-82cb-47b796976c19")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "755-SST3904HZGT116"
+		(at 281.2256 -151.0774 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3bf2bfb6-fe06-487f-85f7-9daa49ba754e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/SST3904HZGT116?qs=4v%252BiZTmLVHGkqQciQW4yoQ%3D%3D"
+		(at 281.2256 -151.0774 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c9add67-d759-4628-b9e1-5a1e081318b4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetfile "ZX Interface 1 New Layout SMD DIP.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.65 -1.5)
+		(end -0.65 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9f4981d-b4c1-4bde-a8d4-f6870bbf73dd")
+	)
+	(fp_line
+		(start -0.3 -1.45)
+		(end 0.3 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c840145-015a-4618-b2d0-8c28c1f4f27e")
+	)
+	(fp_line
+		(start -0.3 1.45)
+		(end -0.3 -1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a0bc982-1a28-4b42-9ccc-6ebc3e297b84")
+	)
+	(fp_line
+		(start 0.3 -1.45)
+		(end 0.3 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21fdf031-b5fb-43f9-8aa8-33ad6c087448")
+	)
+	(fp_line
+		(start 0.3 1.45)
+		(end -0.3 1.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39aa0642-5d56-4ab5-8a79-13862ef3194b")
+	)
+	(fp_line
+		(start -1.9 -1.8)
+		(end 1.9 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dabe93a9-2e89-49ed-96d3-0bfb8c70c2ff")
+	)
+	(fp_line
+		(start -1.9 1.8)
+		(end -1.9 -1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7f4827e1-0e54-497d-a515-c51124ef46b5")
+	)
+	(fp_line
+		(start 1.9 -1.8)
+		(end 1.9 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "96bcb296-8978-448d-a2ca-d7c24d8b0fc9")
+	)
+	(fp_line
+		(start 1.9 1.8)
+		(end -1.9 1.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fb627b63-0554-4698-88e6-26e60621a3fa")
+	)
+	(fp_line
+		(start -0.675 -1.45)
+		(end 0.675 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "107fc0bb-56dd-4332-96e4-d7a42c167ea3")
+	)
+	(fp_line
+		(start -0.675 -0.5)
+		(end 0.275 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b210f7a9-7e2f-4a0c-9eb4-53e044427828")
+	)
+	(fp_line
+		(start -0.675 1.45)
+		(end -0.675 -1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9428348f-2620-48b9-895d-9dcd796000ef")
+	)
+	(fp_line
+		(start 0.675 -1.45)
+		(end 0.675 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "926b5601-f456-4ec6-9a46-bf7ff274f622")
+	)
+	(fp_line
+		(start 0.675 1.45)
+		(end -0.675 1.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0cf0d579-f758-4b87-b802-9eee35227c3d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "6bed1fe3-cfc9-4f98-b5a9-5f5ded70655e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.15 0.95 90)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "daa71847-f4d0-4138-81ca-4401772ade6f")
+	)
+	(pad "2" smd rect
+		(at -1.15 -0.95 90)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "49d563eb-6665-467f-ac94-b9482667eff1")
+	)
+	(pad "3" smd rect
+		(at 1.15 0 90)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e717033b-9e54-497d-a470-c7cad4b79cfb")
+	)
+	(embedded_fonts no)
+	(model "C:\\Kicad\\Interface1_Parts.3dshapes\\SST3904HZGT116.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,321 @@
+(footprint "BC850C215"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "SOT23-2022")
+	(tags "Transistor BJT NPN")
+	(property "Reference" "REF**"
+		(at -0.275275 3.75285 0)
+		(layer "F.SilkS")
+		(uuid "2e6ab72c-69bf-4055-b798-63db15d22fc8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "BC850C"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7f68e477-1ab7-43c0-a973-98fa8e3f7ae7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "81f3fcfa-04a5-4d0d-a683-9053a0e712dc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "NPN general purpose transistor,BC850C NXP BC850C,215 NPN Bipolar Transistor, 0.1 A, 45 V, 3-Pin TO-236AB"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0867cb25-b14c-4d73-ae1c-fe7c4e24038e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "1.1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4a4f1437-748b-4ae9-92a2-b2f92085b805")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Nexperia"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ccdd7b8a-a5bc-4973-9e04-4347a3d19bc4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "BC850C,215"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a918efe-40c3-4e72-bcf1-7c1b004bb45e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "771-BC850C-T/R"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8c1c02e4-6ffd-4864-be10-1b80215468fc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/BC850C215?qs=me8TqzrmIYVR%2FGACbHj0Ow%3D%3D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29c98a60-5e65-475f-b3dc-8aad498bbd94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "Serial IO")
+	(sheetfile "Serial_IO.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.45 -0.65)
+		(end -1.45 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ff121ba0-0e56-4ff7-9457-7d4253e45250")
+	)
+	(fp_line
+		(start -1 1.7)
+		(end -1 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e97ff5a-5756-4712-9099-74272227cf70")
+	)
+	(fp_line
+		(start -1 1.8)
+		(end -1 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5709b324-eac9-4b46-9989-ad771d5906b7")
+	)
+	(fp_line
+		(start -0.6 -0.65)
+		(end -1.45 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fbec8cfa-f998-4da9-94d0-4323355f9b96")
+	)
+	(fp_line
+		(start 0.6 -0.65)
+		(end 1.45 -0.65)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f7b74c71-8edf-49bd-a055-f85bdb31f277")
+	)
+	(fp_line
+		(start 1.45 -0.65)
+		(end 1.45 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39ec1d44-1f3e-42d9-9270-4b56e2874aeb")
+	)
+	(fp_arc
+		(start -1 1.7)
+		(mid -0.95 1.75)
+		(end -1 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e91af016-6591-483c-8a08-9d4652dfdce0")
+	)
+	(fp_arc
+		(start -1 1.8)
+		(mid -1.05 1.75)
+		(end -1 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "54c878be-953f-48fc-8300-47abe42d4d49")
+	)
+	(fp_line
+		(start -2.45 -2.35)
+		(end 2.45 -2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0606279c-7491-4bce-a803-ac6cea45bcc6")
+	)
+	(fp_line
+		(start -2.45 2.35)
+		(end -2.45 -2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "121f58c1-acc5-4112-89a3-bc803f2de7a6")
+	)
+	(fp_line
+		(start 2.45 -2.35)
+		(end 2.45 2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa4641d5-8202-48e9-ab9e-13567f97508e")
+	)
+	(fp_line
+		(start 2.45 2.35)
+		(end -2.45 2.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9e75c81f-0463-42ce-9085-09dbb2e2a51e")
+	)
+	(fp_line
+		(start -1.45 -0.65)
+		(end 1.45 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "daf73451-aba3-426c-b253-fd38d34c68fc")
+	)
+	(fp_line
+		(start -1.45 0.65)
+		(end -1.45 -0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2336582c-1de1-4e26-b145-7a7ed8126ed9")
+	)
+	(fp_line
+		(start 1.45 -0.65)
+		(end 1.45 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec21807d-698a-49a2-bdc9-723b816aa889")
+	)
+	(fp_line
+		(start 1.45 0.65)
+		(end -1.45 0.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "decd805c-90eb-41c5-b6ad-bef66434f58c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4fcae4ff-b408-43dd-a4de-5adc34c0cfec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.95 1)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c70c744d-3dd4-4105-a090-8b60baccdace")
+	)
+	(pad "2" smd rect
+		(at 0.95 1)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c8f17b02-1c4b-4afe-bf21-2fd478da5d67")
+	)
+	(pad "3" smd rect
+		(at 0 -1)
+		(size 0.6 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "63e9058b-c4c0-4b5c-81b3-1d38618b36ee")
+	)
+	(embedded_fonts no)
+	(model "C:\\Kicad\\Interface1_Parts.3dshapes\\BC850C,215.stp"
+		(offset
+			(xyz 1.330000023 -2.109999863 -1.159999949)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -180)
+		)
+	)
+)

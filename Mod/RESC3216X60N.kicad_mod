@@ -1,0 +1,243 @@
+(footprint "RESC3216X60N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(locked yes)
+	(layer "F.Cu")
+	(descr "CRCW1206")
+	(tags "Resistor")
+	(property "Reference" "REF**"
+		(at -0.0317 -2.425575 0)
+		(layer "F.SilkS")
+		(uuid "48f6700e-4949-4b2c-92b5-93b8b8a2fed9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "3K9"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4ea7beea-fd87-42f8-b816-2c339efff967")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d764aae2-8027-466c-9926-6ee0113966e7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "CRCW1206 Resistor T/R 0.25W,1%,3K9 Vishay CRCW Series Thick Film Surface Mount Resistor 1206 Case 3.9k +/-1% 0.25W +/-100ppm/C"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9580640b-696a-44f6-80d8-787d0d877f40")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Height" "0.6"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b6bbd9af-c39b-4f7a-99b9-a2cc66160ebf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Vishay"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f6bfcdc-34f2-401f-8df7-103e5465f37c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "CRCW12063K90FKEA"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47ae207e-8b8d-401e-a82a-5d44d2a4eaae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" "71-CRCW1206-3.9K-E3"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96060d14-ae13-4fbf-8ffe-eedb02f0f7a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW12063K90FKEA?qs=cIcnZvs8mCNkQ0vWXL23Cw%3D%3D"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "23d6408e-4aaf-4538-b809-854c22b8d188")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "Serial IO")
+	(sheetfile "Serial_IO.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 0 -0.7)
+		(end 0 0.7)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "762a1efd-fda9-45f7-a54c-17b71d6ccb70")
+	)
+	(fp_line
+		(start -2.275 -1.15)
+		(end 2.275 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6676b178-69b0-4a70-82fd-afd569fbcec7")
+	)
+	(fp_line
+		(start -2.275 1.15)
+		(end -2.275 -1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ab41cf3f-11c1-4c06-90a9-3ce359a3cb99")
+	)
+	(fp_line
+		(start 2.275 -1.15)
+		(end 2.275 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7ddb5355-9652-43ca-8b2f-d7c92ed1d5ab")
+	)
+	(fp_line
+		(start 2.275 1.15)
+		(end -2.275 1.15)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a59c312-cc81-4568-9478-6d99130944a1")
+	)
+	(fp_line
+		(start -1.575 -0.8)
+		(end 1.575 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "444e38fc-fd4f-4b3e-8fdc-397756721123")
+	)
+	(fp_line
+		(start -1.575 0.8)
+		(end -1.575 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a53abbd5-c1e4-41e1-a167-175eb05dccbf")
+	)
+	(fp_line
+		(start 1.575 -0.8)
+		(end 1.575 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5b48556d-0359-4991-97a4-45e5a57e1c77")
+	)
+	(fp_line
+		(start 1.575 0.8)
+		(end -1.575 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "69fb1811-f0fc-4a2f-8f95-50684928912d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "498aeb00-7f40-44a8-a4b3-3d2180c58cfc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.5 0)
+		(size 1.05 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d35fa5d3-fcb9-4604-a423-7fe6ee158070")
+	)
+	(pad "2" smd rect
+		(at 1.5 0)
+		(size 1.05 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b04b38d7-595b-43f8-b183-d0337296deba")
+	)
+	(embedded_fonts no)
+	(model "C:\\Kicad\\Interface1_Parts.3dshapes\\CRCW120676K8FKEA.stp"
+		(offset
+			(xyz 1.779999945 0.8600000014 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
